@@ -24,7 +24,7 @@ export default function Header() {
         <nav className="flex-1 hidden lg:flex justify-center items-center gap-6 text-sm font-bold uppercase tracking-wide">
           <Link href="/" className={`${isActive("/")} transition-colors duration-200 hover:text-[#707070] no-underline`}>Home</Link>
           <Link href="/services" className={`${isActive("/services")} transition-colors duration-200 hover:text-[#707070] no-underline`}>Services</Link>
-          <Link href="/testimonials" className="hover:underline">Testimonials</Link>
+          <Link href="/testimonials" className={`${isActive("/testimonials")} transition-colors duration-200 hover:text-[#707070] no-underline`}>Testimonials</Link>
           <Link href="/resources" className="hover:underline">Resources</Link>
           <Link href="/about-us" className="hover:underline">About Us</Link>
           <Link href="/apply" className="hover:underline">Apply</Link>
